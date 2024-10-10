@@ -1,0 +1,80 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 700px;
+  position: relative; /* Necesario para el botón */
+}
+
+h1 {
+  font-size: 32px;
+  color: #4caf50;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.main-button {
+  background-color: transparent; /* Mantener el fondo transparente */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 48 48'%3E%3Cg fill='none'%3E%3Cpath fill='url(%23fluentColorPeopleTeam480)' d='M37.222 39.997a7 7 0 0 0 3.07-.818A7 7 0 0 0 44 33v-9.75a4.25 4.25 0 0 0-3.409-4.167A4.3 4.3 0 0 0 39.75 19h-5.5q-.433.001-.842.083A4.25 4.25 0 0 0 30 23.25V33c0 2.675 1.501 5 3.707 6.179a6.96 6.96 0 0 0 3.27.821H37q.111 0 .222-.004'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam487)' fill-opacity='0.5' d='M37.222 39.997a7 7 0 0 0 3.07-.818A7 7 0 0 0 44 33v-9.75a4.25 4.25 0 0 0-3.409-4.167A4.3 4.3 0 0 0 39.75 19h-5.5q-.433.001-.842.083A4.25 4.25 0 0 0 30 23.25V33c0 2.675 1.501 5 3.707 6.179a6.96 6.96 0 0 0 3.27.821H37q.111 0 .222-.004'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam481)' d='M11.222 39.997a7 7 0 0 0 3.07-.818A7 7 0 0 0 18 33v-9.75a4.25 4.25 0 0 0-3.409-4.167A4.3 4.3 0 0 0 13.75 19h-5.5q-.433.001-.842.083A4.25 4.25 0 0 0 4 23.25V33c0 2.675 1.501 5 3.707 6.179a6.96 6.96 0 0 0 3.27.821H11q.112 0 .222-.004'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam488)' fill-opacity='0.5' d='M11.222 39.997a7 7 0 0 0 3.07-.818A7 7 0 0 0 18 33v-9.75a4.25 4.25 0 0 0-3.409-4.167A4.3 4.3 0 0 0 13.75 19h-5.5q-.433.001-.842.083A4.25 4.25 0 0 0 4 23.25V33c0 2.675 1.501 5 3.707 6.179a6.96 6.96 0 0 0 3.27.821H11q.112 0 .222-.004'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam482)' d='M19.25 19A4.25 4.25 0 0 0 15 23.25V34a9 9 0 1 0 18 0V23.25A4.25 4.25 0 0 0 28.75 19z'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam483)' d='M19.25 19A4.25 4.25 0 0 0 15 23.25V34a9 9 0 1 0 18 0V23.25A4.25 4.25 0 0 0 28.75 19z'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam484)' d='M37 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam485)' d='M11 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10'/%3E%3Cpath fill='url(%23fluentColorPeopleTeam486)' d='M18 11a6 6 0 1 1 12 0a6 6 0 0 1-12 0'/%3E%3Cdefs%3E%3ClinearGradient id='fluentColorPeopleTeam480' x1='33.329' x2='45.202' y1='21.792' y2='34.43' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='.125' stop-color='%23027e27'/%3E%3Cstop offset='1' stop-color='%2346724b'/%3E%3C/linearGradient%3E%3ClinearGradient id='fluentColorPeopleTeam481' x1='7.329' x2='19.202' y1='21.792' y2='34.43' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='.125' stop-color='%23297032'/%3E%3Cstop offset='1' stop-color='%23027e27'/%3E%3C/linearGradient%3E%3ClinearGradient id='fluentColorPeopleTeam482' x1='19.28' x2='32.658' y1='22.191' y2='38.211' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='.125' stop-color='%236e9e61'/%3E%3Cstop offset='1' stop-color='%23297032'/%3E%3C/linearGradient%3E%3ClinearGradient id='fluentColorPeopleTeam483' x1='24' x2='44.557' y1='16.143' y2='44.95' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23365e3d' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23114614'/%3E%3C/linearGradient%3E%3ClinearGradient id='fluentColorPeopleTeam484' x1='34.378' x2='39.474' y1='8.329' y2='16.467' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='.125' stop-color='%23027e27'/%3E%3Cstop offset='1' stop-color='%2346724b'/%3E%3C/linearGradient%3E%3ClinearGradient id='fluentColorPeopleTeam485' x1='8.378' x2='13.474' y1='8.329' y2='16.467' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='.125' stop-color='%23297032'/%3E%3Cstop offset='1' stop-color='%23027e27'/%3E%3C/linearGradient%3E%3ClinearGradient id='fluentColorPeopleTeam486' x1='20.854' x2='26.969' y1='6.595' y2='16.36' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='.125' stop-color='%236e9e61'/%3E%3Cstop offset='1' stop-color='%23297032'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  border: 2px solid #ffffff00; /* Borde verde */
+  padding: 15px 30px; /* Espaciado interno */
+  font-size: 20px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cursor de mano */
+  color: white; /* Color de la fuente */
+  font-weight: bold; /* Fuente en negrita */
+  position: absolute; /* Posición absoluta */
+  top: 20px; /* Ajusta según la distancia que quieras */
+  right: 20px; /* Ajusta según la distancia que quieras */
+}
+
+.main-button:hover {
+  background-color: rgba(0, 255, 0, 0.1); /* Color de fondo al pasar el ratón */
+}
+
+
+
+
+
+.conversion-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px; /* Añadido para evitar que se superponga con el botón */
+}
+
+.conversion-item p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.convert-button {
+  display: inline-block; /* Cambiado para poder aplicar el fondo SVG */
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: 100px; /* Ajusta el tamaño según sea necesario */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg fill='none'%3E%3Cg clip-path='url(%23gravityUiPlayFill0)'%3E%3Cpath fill='%231b7926' fill-rule='evenodd' d='M14.756 10.164c1.665-.962 1.665-3.366 0-4.329L6.251.918C4.585-.045 2.5 1.158 2.5 3.083v9.834c0 1.925 2.085 3.128 3.751 2.164z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='gravityUiPlayFill0'%3E%3Cpath fill='%231b7926' d='M0 0h16v16H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/g%3E%3C/svg%3E");
+  cursor: pointer;
+  border: none; /* Elimina el borde por defecto del botón */
+  background-color: transparent; /* Fondo transparente */
+  /* Elimina cualquier sombra del marco */
+}
+
+.convert-button:hover {
+  background-color: rgba(0, 255, 0, 0.1); /* Cambia el color de fondo al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3); /* Sombra más fuerte al hacer hover */
+}
+
