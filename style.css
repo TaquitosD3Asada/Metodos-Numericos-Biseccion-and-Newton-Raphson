@@ -10,7 +10,6 @@ body {
     justify-content: center;
     padding-top: 20px;
 }
-
 /* Estilos del botón "?" en la parte superior derecha */
 .top-right-buttons {
     position: absolute;
@@ -172,30 +171,6 @@ button:hover {
 }
 
 /* Botones de funciones trigonométricas */
-.trig-container {
-    margin-top: 20px; /* Espacio encima del contenedor de funciones trigonométricas */
-}
-
-.trig-button {
-    background-color: #20ec7c8e; /* Azul para el botón de funciones trigonométricas */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px; /* Espacio entre el botón principal y el botón de trigonométricas */
-}
-
-/* Estilos de los botones de funciones trigonométricas */
-.trig-buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* Cuatro botones en una fila */
-    gap: 10px;
-    margin-top: 10px; /* Espacio adicional encima de los botones de funciones trigonométricas */
-}
-
 .trig-buttons button {
     background-color: #20ec7c8e; /* Azul para las funciones trigonométricas */
     border: none;
@@ -225,7 +200,6 @@ button:hover {
     margin-top: 10px; /* Espaciado entre el botón y los botones trigonométricos */
 }
 
-x
 button.active {
     background-color: #4caf50; /* Color verde para indicar que está activo */
     color: white; /* Texto blanco */
